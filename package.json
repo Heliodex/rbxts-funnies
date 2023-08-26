@@ -1,0 +1,22 @@
+{
+	"name": "rbxts-funnies",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w",
+		"dev": "tsup src"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@danielx/civet": "^0.6.25",
+		"@rbxts/compiler-types": "2.1.1-types.0",
+		"@rbxts/types": "^1.0.712",
+		"esbuild": "^0.19.2",
+		"prettier": "^3.0.2",
+		"typescript": "^5.2.2"
+	}
+}

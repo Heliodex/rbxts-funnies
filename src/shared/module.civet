@@ -1,0 +1,2 @@
+export makeHello := (name: string) =>
+	`Sup from ${name}!`
